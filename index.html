@@ -31,7 +31,9 @@
     .text-adlam{
         font-family: "ADLaM Display", serif;
         font-style: normal;
-        }   
+        }  
+    
+    
 
     </style>
     <script>
@@ -50,8 +52,45 @@
 </head>
 <body>
 <!--  Header Section  -->
-  <header>
+  <header class="mx-0 px-[16px]  lg:px-[140px] h-[70px] lg:h-[100px] border-b-[3px] lg:border-none flex justify-between items-center  bg-[#FFF9F4] ">
+    <!-- NavBar -->
+    <div class="flex items-center space-x-3">
+        <img src="./c1-assets/logo-header.png" alt="logo of cat" class="h-12 w-12">
+        <h3 class="text-2xl  text-black-800 text-sora">Browses<span class="text-yellow-400">4</span>Pets</h3>
+    </div>
 
+    <nav class="hidden lg:flex space-x-6 text-lg  text-sora">
+        <a href="" class="hover:text-yellow-500">Find a pet</a>
+        <a href="" class="hover:text-yellow-500">Breeds</a>
+        <a href="" class="hover:text-yellow-500">Contact us</a>
+    </nav>
+
+    <div class="lg:hidden relative">
+      <input type="checkbox" id="menu-toggle" class="peer hidden">
+      <label for="menu-toggle" class="flex flex-col space-y-1 cursor-pointer">
+          <span class="block w-6 h-1 bg-gray-700"></span>
+          <span class="block w-6 h-1 bg-gray-700"></span>
+          <span class="block w-6 h-1 bg-gray-700"></span>
+      </label>
+      <ul class="absolute top-12 right-0 bg-white shadow-lg rounded-lg p-4 space-y-4 w-40 hidden peer-checked:block">
+          <li><a href="" class="block text-gray-800 hover:text-yellow-500">Find a pet</a></li>
+          <li><a href="" class="block text-gray-800 hover:text-yellow-500">Breeds</a></li>
+          <li><a href="" class="block text-gray-800 hover:text-yellow-500">Contact us</a></li>
+      </ul>
+  </div>
+   <div class=" hidden lg:block ">
+    <i class="fa-regular fa-bell text-center  px-1 py-2"></i>
+    <i class="fa-solid fa-magnifying-glass px-1 py-2 "></i>
+    <button class=" border-2 border-yellow-300 text-black  h-11 text-xl px-5 py-2 rounded-lg">
+      Login
+    </button>
+    <button class=" bg-[#FFDC26] text-black text-xl h-11 px-5 py-2 rounded-lg ">
+      Register
+    </button>
+  </div>
+</header>
+
+   
   </header>
 <!-- Main section -->
   <main>
