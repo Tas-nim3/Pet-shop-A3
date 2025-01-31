@@ -95,16 +95,15 @@
   <main  >
 
 <!-- Banner section -->
-<section class="relative w-full h-[600px]  lg:h-[750px] bg-no-repeat bg-contain bg-center" style="background-image: url('./c1-assets/cat-big.png');">
-  <div class="absolute inset-0"></div> 
+<section class=" mx-[16px] my-[35px] lg:mx-[140px] lg:my-[100px]  w-auto h-[450px] lg:h-[750px] bg-no-repeat bg-contain bg-bottom lg:bg-center" style="background-image: url('./c1-assets/cat-big.png');">
   <div class=" px-6 lg:px-20  text-black">
-    <h1 class="text-[30px] lg:text-6xl font-semibold leading-tight text-left text-adlam">
+    <h1 class="text-[30px]  lg:text-6xl font-semibold leading-tight text-left text-adlam">
       Pamper Your Pet,<br> Because They Deserve<br> the Best
     </h1>
     <p class="text-slate-500 text-base lg:text-xl  w-full lg:w-[672px] text-left text-sora my-3">
       Find the perfect pet companion for you, from dogs and cats to exotic animals. Explore our wide range of breeds and facilities. Your next best friend is just a click away!
     </p>
-    <button class="bg-[#FFDC26] text-black text-xl h-11 px-5 py-2 rounded-lg mt-6">
+    <button class="bg-[#FFDC26] hover:bg-yellow-100 text-black text-base lg:text-xl h-11 px-5 py-2 rounded-lg mt-6">
       Find a pet
     </button>
   </div>
@@ -205,7 +204,7 @@
     <div class="bg-[#F9DF8A] p-5 lg:w-auto col-span-2 row-span-3 lg:col-span-2 lg:row-span-3  rounded-xl">
       <h2 class="text-adlam text-[26px] lg:text-[32px] my-3">T-Shirt For Dogs</h2>
       <p class="text-sora text-[14px] lg:text-xl my-3">Stylish and comfy, perfect for keeping<br> your pup cozy !</p>
-      <button class="btn bg-white text-black text-xl h-11 px-5 py-2 rounded-lg mt-4">Register</button>
+      <button class="btn bg-white text-black text-xl h-11 px-5 py-2 rounded-lg mt-4 hover:bg-yellow-100">Register</button>
       <img src="./c1-assets/cute-pet-mid.png" alt="Cute Pet" class="w-48   lg:mt-[-100px] lg:ml-[330px] ml-[130px] mt-[-50px]">
     </div>
    
@@ -305,12 +304,34 @@
 
 <!-- Price Section -->
 
-<section class="my-[30px]  mx-0  px-[16px]  lg:px-[140px] ">
-<h2 class="text-adlam text-xl lg:text-4xl my-6">
-  Everyday low Price
-</h2>
-
+<section class="my-[30px] mx-0 px-[16px] lg:px-[140px]">
+  <h2 class="text-adlam text-xl lg:text-4xl my-6 lg:my-[30px]">
+    Everyday low Price
+  </h2>
+  
+  <div class="flex flex-col lg:flex-row gap-5 lg:gap-12">
+    <div class="lg:h-[480px] lg:w-[60%] flex bg-gradient-to-r from-[#F7CCFB] to-[#AFD2FD] pt-[50px] lg:pt-0 pl-[30px] rounded-xl  ">
+      <div class="lg:my-[136px] lg:mx-[15px] ">
+        <p class="text-sora text-[20px] lg:block hidden">Under Price</p>
+        <h2 class="text-adlam text-[22px] lg:text-[32px] ">Pet Grooming Mitt</h2>
+        <h3 class="text-adlam text-white text-xl hidden lg:block">(Easy Hair Removal)</h3>
+        <h1 class="text-adlam text-[39px] lg:text-[56px]">$7.99</h1>
+      </div>
+      <img src="./c1-assets/cute-dog-mid.png" alt="" class="h-[270px]  lg:h-full lg:w-[382px] lg:ml-[50px] object-cover relative rounded-xl"/>
+    </div>
+    
+    <!-- 2nd Card: T-Shirt for Dogs -->
+    <div class="lg:h-[480px] lg:w-[40%] bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] pt-[50px] pl-[30px] lg:p-[20px] rounded-xl ">
+      <div class=" lg:mx-[38px] ">
+        <h2 class="text-adlam text-[22px] lg:text-[32px]">T-Shirt for Dogs</h2>
+        <h1 class="text-adlam text-[39px] lg:text-[56px] text-[#FFDC26]">$6.87</h1>
+      </div>
+      <img src="./c1-assets/cute-pet-mid.png" alt="" class="h-[273px] lg:h-[392px] lg:w-[312px] l object-cover mt-[-100px] ml-[120px] lg:ml-[200px] lg:mt-[-115px] rounded-xl"/>
+    </div>
+    
+  </div>
 </section>
+
   </main>
 <!-- Footer Section -->
   <footer class="text-4">
